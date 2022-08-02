@@ -1,0 +1,20 @@
+<nav class="mynav">
+  <div class="container-fluid">
+
+      <ul>
+          <li>
+              <a class="navbar-brand" routerLink="home" href=""><img src="assets/image/logo1.png" alt=""></a>
+          </li>
+          <li><a routerLink="home" routerLinkActive="active"><span class="glyphicon glyphicon-home navItems"></span> Home</a></li>
+          <li><a routerLink="menu" routerLinkActive="active"><span class="glyphicon glyphicon-cutlery"></span>Menu</a></li>
+          <li><a routerLink="dm" routerLinkActive="active"><span class="glyphicon glyphicon-shopping-cart"></span>Go to Cart</a></li>
+          <li><a routerLink="v" routerLinkActive="active"><span class="glyphicon glyphicon-eye-open"></span>View Cart</a></li>
+          <li><a routerLink="dp" routerLinkActive="active"><span class="glyphicon glyphicon-asterisk"></span>Delivery Partner</a></li>
+          <li><a routerLink="am" routerLinkActive="active"><span class="glyphicon glyphicon-asterisk"></span>Admin ADD Menu</a></li>
+          <li><a routerLink="about" routerLinkActive="active"><span class="glyphicon glyphicon-heart"></span>About us</a></li>
+          <li><a routerLink="signup" routerLinkActive="active"><span class="glyphicon glyphicon-user navItems"></span> Sign Up</a></li>
+          <li><a routerLink="login" routerLinkActive="active"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          <li><a (click)="logout()" style="cursor: pointer;"><span class="glyphicon glyphicon-log-out"></span>Logout</a></li>
+      </ul>
+  </div>
+</nav>
